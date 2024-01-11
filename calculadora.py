@@ -46,9 +46,7 @@ while True:
     else:
         print('Nunca deveria chegar aqui.')
         
-    sair = input("Quer sair? [s]sim: ").lower().startswith('s')
-
-    
+    sair = input("Quer sair? [s]sim: ").lower().startswith('s')    
 
     if sair is True:
         break
